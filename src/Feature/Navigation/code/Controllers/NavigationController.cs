@@ -57,7 +57,7 @@
       }
       var item = RenderingContext.Current.Rendering.Item;
       var items = this._navigationRepository.GetLinkMenuItems(item);
-      return this.View("LinkMenu", items);
+      return this.View("LinkMenu");
     }
   }
 }

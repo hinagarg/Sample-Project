@@ -52,10 +52,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/18/2015 21:19:46</publishTime>
     </File>
     <File Include="bin/Sitecore.Foundation.Dictionary.dll">
-      <publishTime>04/20/2017 00:07:45</publishTime>
+      <publishTime>04/20/2017 13:52:52</publishTime>
     </File>
     <File Include="bin/Sitecore.Foundation.Dictionary.pdb">
-      <publishTime>04/20/2017 00:07:45</publishTime>
+      <publishTime>04/20/2017 13:52:52</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>

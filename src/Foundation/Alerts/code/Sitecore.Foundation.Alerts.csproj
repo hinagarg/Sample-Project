@@ -48,6 +48,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.Foundation.Dictionary">
+      <HintPath>..\..\..\..\libraries\Sitecore.Foundation.Dictionary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\..\..\libraries\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
@@ -58,6 +62,10 @@
     </Reference>
     <Reference Include="Sitecore.Mvc.Analytics">
       <HintPath>..\..\..\..\libraries\Sitecore.Mvc.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Portfolio.Website">
+      <HintPath>..\..\..\..\libraries\Sitecore.Portfolio.Website.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Web">
@@ -105,9 +113,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="AlertTexts.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="Exceptions\InvalidDataSourceItemException.cs" />
@@ -122,12 +127,6 @@
     <Content Include="packages.config" />
     <Content Include="Views\Alerts\InfoMessage.cshtml" />
     <None Include="Properties\PublishProfiles\root.pubxml" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>

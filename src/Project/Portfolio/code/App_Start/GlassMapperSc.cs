@@ -15,7 +15,7 @@ using Sitecore.Pipelines;
 // and delete the Glass.Mapper.Sc.CastleWindsor.config file from the Sitecore Config Include folder.
 // [assembly: WebActivatorEx.PostApplicationStartMethod(typeof(code.App_Start.GlassMapperSc), "Start")]
 
-namespace code.App_Start
+namespace Sitecore.Portfolio.Website.App_Start
 {
 	public class  GlassMapperSc
 	{
